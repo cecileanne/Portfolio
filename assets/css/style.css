@@ -1,8 +1,12 @@
 body {
-  background: white;
-  color: black;
+  background: black;
+  color: white;
   font-family: "Play", sans-serif;
   font-size: 20px;
+}
+
+.row {
+  margin-bottom: 0px;
 }
 
 a:link,
@@ -10,8 +14,6 @@ a:visited {
   font-family: "Play", sans-serif;
   font-size: 20px;
   font-weight: normal;
-  padding-top: 15px;
-  padding-bottom: 15px;
   text-decoration: none;
   color: orangered;
 }
@@ -21,18 +23,28 @@ a:hover {
 }
 
 #frozenSide {
-  position: fixed;
-  background-image: url("../assets/images/CecileProfilePixelsWandr.JPG");
-  height: 600px;
+  background: white;
+  color: black;
+  /* background-image: url("../assets/images/CecileProfilePixelsWandr.JPG"); */
+  min-height: 100vh;
   background-size: cover;
   margin: 0;
   padding: 0;
 }
 
+#scrollSpace {
+  margin: 0px;
+  padding: 0px;
+}
+
+.noMargin {
+  margin-top: 0px;
+}
+
 .contactItem {
   display: inline-block;
-  width: 10%;
-  margin-left: 10%;
+  width: 8%;
+  margin-left: 8%;
   margin-right: 5%;
   position: relative;
 }
@@ -42,14 +54,15 @@ a:hover {
 }
 
 .assetDiv {
-  height: 400px;
+  height: 450px;
   align-content: right;
-  float: right;
+  margin: 0;
 }
 
 #asset1 {
   background: black;
   color: aquamarine;
+  margin-top: 0;
 }
 
 #asset2 {
