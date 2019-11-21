@@ -2,32 +2,57 @@ body {
   background: white;
   color: black;
   font-family: "Play", sans-serif;
+  font-size: 20px;
+}
+
+a:link,
+a:visited {
+  font-family: "Play", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  color: orangered;
+}
+
+a:hover {
+  opacity: 0.5;
 }
 
 #frozenSide {
   position: fixed;
-  background: white;
-  padding: 10px;
+  background-image: url("../assets/images/CecileProfilePixelsWandr.JPG");
+  height: 600px;
+  background-size: cover;
   margin: 0;
-  height: 100%;
+  padding: 0;
 }
 
 .contactItem {
   display: inline-block;
   width: 10%;
   margin-left: 10%;
-  margin-right: 5%
+  margin-right: 5%;
   position: relative;
 }
 
-#asset1 {
-  background: orangered;
-  color: aquamarine;
+.logoPic {
+  width: 50px;
+}
+
+.assetDiv {
   height: 400px;
+  align-content: right;
+  float: right;
+}
+
+#asset1 {
+  background: black;
+  color: aquamarine;
 }
 
 #asset2 {
   background: aqua;
-  color: orangered;
-  height: 400px;
+  color: black;
 }
