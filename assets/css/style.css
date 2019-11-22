@@ -1,8 +1,9 @@
 body {
-  background: black;
-  color: white;
+  background: white;
+  color: black;
   font-family: "Play", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
+  overflow: auto;
 }
 
 .row {
@@ -12,14 +13,18 @@ body {
 a:link,
 a:visited {
   font-family: "Play", sans-serif;
-  font-size: 20px;
-  font-weight: normal;
   text-decoration: none;
   color: orangered;
 }
 
 a:hover {
   opacity: 0.5;
+}
+
+#myName.a {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 2px;
 }
 
 #frozenSide {
@@ -31,6 +36,10 @@ a:hover {
   margin: 0;
   padding: 0;
 }
+/* 
+#frozenSide.l5 {
+  position: fixed;
+} */
 
 #scrollSpace {
   margin: 0px;
@@ -54,9 +63,11 @@ a:hover {
 }
 
 .assetDiv {
-  height: 450px;
+  height: 50vh;
   align-content: right;
   margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #asset1 {
@@ -66,6 +77,56 @@ a:hover {
 }
 
 #asset2 {
-  background: aqua;
+  background: aquamarine;
   color: black;
+}
+
+#asset3 {
+  background: orangered;
+  color: white;
+}
+
+#asset4 {
+  background: white;
+  color: orangered;
+}
+
+.projectPage {
+  background: black;
+  color: white;
+}
+
+footer {
+  background: white;
+  align-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12%;
+  /* padding-right: 15%; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+.contactItemFoot {
+  display: inline-block;
+  width: 4%;
+  margin-left: 3%;
+  margin-right: 3%;
+  position: relative;
+}
+
+.logoPicFoot {
+  width: 25px;
+}
+
+#homeFoot {
+  width: 40%;
+}
+
+#nameFooter {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 20px;
 }
