@@ -3,7 +3,6 @@ body {
   color: black;
   font-family: "Play", sans-serif;
   font-size: 16px;
-  overflow: auto;
 }
 
 .row {
@@ -21,10 +20,11 @@ a:hover {
   opacity: 0.5;
 }
 
-#myName.a {
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-top: 2px;
+.mainContact {
+  padding-left: 15%;
+  padding-right: 5%;
+  width: 80%;
+  align-content: center;
 }
 
 #frozenSide {
@@ -41,6 +41,16 @@ a:hover {
   position: fixed;
 } */
 
+.duckBottom {
+  padding-top: 35vh;
+  align-content: right;
+}
+
+#duck {
+  width: 100px;
+  margin-left: 40%;
+}
+
 #scrollSpace {
   margin: 0px;
   padding: 0px;
@@ -52,9 +62,9 @@ a:hover {
 
 .contactItem {
   display: inline-block;
-  width: 8%;
-  margin-left: 8%;
-  margin-right: 5%;
+  width: 7%;
+  margin-left: 6%;
+  margin-right: 4%;
   position: relative;
 }
 
@@ -68,6 +78,7 @@ a:hover {
   margin: 0;
   padding-left: 10px;
   padding-right: 10px;
+  overflow-y: auto;
 }
 
 #asset1 {
