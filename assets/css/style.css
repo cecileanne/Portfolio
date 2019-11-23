@@ -181,7 +181,8 @@ footer {
 }
 
 .projectLanding {
-  height: 95vh;
+  height: 92vh;
+  top: 0;
   position: fixed;
 }
 
@@ -192,4 +193,9 @@ footer {
 
 .projectSpecs {
   color: white;
+  margin-left: 50%;
+}
+
+.centeredImage {
+  margin-top: 30px;
 }
