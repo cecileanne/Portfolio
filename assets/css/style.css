@@ -181,9 +181,12 @@ footer {
 }
 
 .projectLanding {
-  height: 92vh;
+  min-height: 100vh;
+  /* background-size: cover; */
+  margin: 0;
+  padding: 0;
   top: 0;
-  position: fixed;
+  object-fit: cover;
 }
 
 /* .container {
@@ -193,7 +196,8 @@ footer {
 
 .projectSpecs {
   color: white;
-  margin-left: 50%;
+  /* margin-left: 50%; */
+  padding: 10px;
 }
 
 .centeredImage {
