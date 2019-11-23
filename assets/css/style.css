@@ -27,9 +27,14 @@ a:hover {
   align-content: center;
 }
 
+.fixLock {
+  position: fixed;
+}
+
 #frozenSide {
   background: white;
   color: black;
+  /* position: fixed; */
   /* background-image: url("../assets/images/CecileProfilePixelsWandr.JPG"); */
   min-height: 100vh;
   background-size: cover;
@@ -41,14 +46,19 @@ a:hover {
   position: fixed;
 } */
 
-.duckBottom {
+/* .duckBottom {
   padding-top: 35vh;
+  align-content: right;
+} */
+
+#duckWork {
+  padding-top: 0;
   align-content: right;
 }
 
 #duck {
-  width: 100px;
-  margin-left: 40%;
+  width: 150px;
+  /* margin-left: 40%; */
 }
 
 #scrollSpace {
@@ -76,8 +86,8 @@ a:hover {
   height: 50vh;
   align-content: right;
   margin: 0;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 15px;
   overflow-y: auto;
 }
 
@@ -100,6 +110,33 @@ a:hover {
 #asset4 {
   background: white;
   color: orangered;
+}
+
+.portfolioItem {
+  display: inline-block;
+  width: 250px;
+  margin: 2px;
+  position: relative;
+}
+
+.portfolioItem img {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolioNameOverlay {
+  text-align: right;
+  width: 250px;
+  position: absolute;
+  top: 20px;
+  padding-right: 18px;
+  z-index: 2;
+}
+
+.portfolioItem a:hover {
+  opacity: 50%;
 }
 
 .projectPage {
