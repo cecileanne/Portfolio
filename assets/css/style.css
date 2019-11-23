@@ -124,6 +124,7 @@ a:hover {
   position: relative;
   width: 100%;
   height: 100%;
+  opacity: 90%;
 }
 
 .portfolioNameOverlay {
@@ -177,4 +178,18 @@ footer {
   margin-top: 3px;
   margin-bottom: 3px;
   font-size: 20px;
+}
+
+.projectLanding {
+  height: 95vh;
+  position: fixed;
+}
+
+/* .container {
+  padding-left: 20px;
+  padding-right: 15px;
+} */
+
+.projectSpecs {
+  color: white;
 }
