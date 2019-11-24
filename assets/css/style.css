@@ -202,9 +202,10 @@ footer {
 
 .centeredImage {
   margin-top: 30px;
+  margin-bottom: 75px;
 }
 
-.inlineTitle {
+/* .inlineTitle {
   display: inline-block;
 }
 
@@ -212,4 +213,4 @@ footer {
   margin-top: 10px;
   margin-left: 10px;
   vertical-align: top;
-}
+} */
